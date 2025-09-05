@@ -1,0 +1,33 @@
+# 依存関係のキャッシュ
+node_modules/
+npm-debug.log
+.pnpm-store/
+
+# ビルド生成物
+dist/
+build/
+coverage/
+
+# 環境設定ファイル
+.env
+.env.local
+
+# ログファイル
+npm-debug.log*
+yarn-error.log*
+.log
+
+# エディタやOSのファイル
+.DS_Store
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# その他のファイル
+npm-shrinkwrap.json
+pnpm-lock.yaml
+
+# テスト関連
+/test/
+/tests/
